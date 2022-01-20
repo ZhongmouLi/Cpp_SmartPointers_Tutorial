@@ -1,0 +1,16 @@
+graph G{
+
+
+    node [shape=square width=1.4];
+
+    A [label =  "Smart points" fixedsize=true]
+    B [label = "unique_ptr" fixedsize=true]
+    C [label = "shared_ptr" fixedsize=true]
+    D [label = "weak_ptr" fixedsize = ture]
+
+    A --B
+    A --C
+    A --D
+
+
+}
